@@ -56,7 +56,7 @@ button{
     color:#52e7e7;
     background: transparent;
     border: solid 2px #52e7e7;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 15px;
     font-size: 20px;
 }
@@ -64,4 +64,41 @@ button:hover{
     background-color: #52e7e7;
     color: #165f5f;
     transition: 0.2s;
+}
+
+.container{
+    display: flex;
+    padding-left: 200px ;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 50px;
+}
+#trofeu img{
+    margin-top: 80px;
+    margin-right: 190px ;
+    width: 30rem;
+    height: 30rem;
+    transform: rotate(25deg);
+   
+}
+
+.text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+span{
+    color: rgb(255, 216, 42);
+}
+.redes{
+    display: flex;
+    justify-content: start;
+    column-gap: 15px;
+
+}
+.redes a{
+    color: rgb(255, 216, 42);
+    font-size: 40px;
 }
