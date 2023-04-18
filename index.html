@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/css/estilo.css" />
+    <link rel="stylesheet" href="./Assets/css/estilo_header.css" />
+    <title>Turminha Award's</title>
+  </head>
+  <body>
+    <main>
+      <header class="header header-open">
+        <nav class="nav-bar">
+          <div class="logo">
+            <h1>Turminha Award's</h1>
+          </div>
+          <div class="nav-list">
+            <ul>
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a href="./salas.html" class="nav-link">Categorias</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Membros</a></li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Vencedores</a>
+              </li>
+            </ul>
+          </div>
+          <div class="login-button">
+            <button><a href="/">Entrar</a></button>
+          </div>
+          <div class="mobile-menu-icon">
+            <button onclick="menuShow()">
+              <img class="icon" src="./Assets/img/menu.png" alt="" />
+            </button>
+          </div>
+        </nav>
+        <div class="mobile-menu">
+          <ul>
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="./salas.html" class="nav-link">Categorias</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Membros</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Vencedores</a>
+            </li>
+          </ul>
+          <div class="login-button">
+            <button><a href="/">Entrar</a></button>
+          </div>
+        </div>
+      </header>
+      <section>
+        <h1>Em breve em...</h1>
+          <div class="countdown-container">
+            <div class="countdown-el days-c">
+              <p class='text'id="days">0</p>
+              <span>dias</span>
+            </div>
+            <div class="countdown-el hours-c">
+              <p class="text" id="hours">0</p>
+              <span>horas</span>
+            </div>
+            <div class="countdown-el mins-c">
+              <p class="text"id="mins">0</p>
+              <span>minutos</span>
+            </div>
+            <div class="countdown-el seconds-c">
+              <p class="text"  id="seconds">0</p>
+              <span>segundos</span>
+            </div>
+          </div>
+      </section>
+    </main>
+    <script src="./Assets/js/menu.js"></script>
+    <script src="./Assets/js/contador.js"></script>
+  </body>
+</html>
