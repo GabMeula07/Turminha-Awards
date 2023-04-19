@@ -28,6 +28,7 @@ section.container{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1.5em;
 }
 .container h1{
     background-image: linear-gradient(to bottom, rebeccapurple, steelblue);
