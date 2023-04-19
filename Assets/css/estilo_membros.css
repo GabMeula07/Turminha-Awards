@@ -1,0 +1,195 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.indice{
+    list-style: none;
+    display: flex;
+    column-gap: 2em;
+}
+.indice a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1.3rem;
+    border-radius: 30rem;
+    background-image: linear-gradient(45deg, rgb(62, 0, 206), rgb(97, 2, 116));
+    transition: 1s;
+}
+#perfil{
+    width: 18em;
+    margin-bottom: 1.5em;
+}
+
+.perfil p {
+    text-align: center;
+    width: 30em;
+}
+.container{
+    display: grid;
+    grid-template-columns: 40em 40em ;
+    grid-row-gap: 2em;
+}
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.perfil_c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    margin-bottom: 1em;
+}
+section h1{
+    margin-top: 2em;
+}
+
+@media screen and (max-width:860px){
+    .indice{
+        display: none;
+    }
+}
+@media screen and (max-width:1135px){
+    .container{
+        display: grid;
+        grid-template-columns: 30em 30em ;
+        grid-row-gap: 2em;
+    }
+    .perfil p {
+        text-align: center;
+        width: 30em;
+        font-size: 0.8rem;
+    }
+    .perfil li{
+        font-size: 0.8rem;
+    }
+    #perfil{
+        width: 16em;
+        margin-bottom: 1.5em;
+    }
+    
+}
+@media screen and (max-width:880px) {
+    .container{
+        display: grid;
+        grid-template-columns: 100em ;
+        grid-row-gap: 2em;
+    }
+    .perfil_c h3{
+        font-size: 1.7em;
+    }
+    .perfil p {
+        text-align: center;
+        width: 30em;
+        font-size: 1.2rem;
+    }
+    .perfil li{
+        font-size: 1.2rem;
+    }
+    #perfil{
+        width: 16em;
+        margin-bottom: 1.5em;
+    }
+}
+@media screen and (max-width:590px) {
+    .container{
+        display: grid;
+        grid-template-columns: 100em ;
+        grid-row-gap: 2em;
+    }
+    .perfil_c h3{
+        font-size: 1em;
+    }
+    .perfil p {
+        text-align: center;
+        width: 30em;
+        font-size: 0.9rem;
+    }
+    .perfil li{
+        font-size: 0.9rem;
+    }
+    #perfil{
+        width: 16em;
+        margin-bottom: 1.5em;
+    }
+}
+@media screen and (max-width:450px) {
+    section h1{
+        font-size: 2em;
+        margin-top: 2em;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 100em ;
+        grid-row-gap: 2em;
+    }
+    .perfil_c h3{
+        font-size: 1.4em;
+    }
+    .perfil p {
+        text-align: center;
+        width: 30em;
+        font-size: 0.8rem;
+    }
+    .perfil li{
+        font-size: 0.8rem;
+    }
+    #perfil{
+        width: 16em;
+        margin-bottom: 1.5em;
+    }
+}
+@media screen and (max-width:390px) {
+    section h1{
+        font-size: 2em;
+        margin-top: 2em;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 100em ;
+        grid-row-gap: 2em;
+    }
+    .perfil_c h3{
+        font-size: 1.4em;
+    }
+    .perfil p {
+        text-align: center;
+        width: 30em;
+        font-size: 0.7rem;
+    }
+    .perfil li{
+        font-size: 0.7rem;
+    }
+    #perfil{
+        width: 16em;
+        margin-bottom: 1.5em;
+    }
+}
+@media screen and (max-width:340px) {
+    section h1{
+        font-size: 2em;
+        margin-top: 2em;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 100em ;
+        grid-row-gap: 2em;
+    }
+    .perfil_c h3{
+        font-size: 1.4em;
+    }
+    .perfil p {
+        text-align: center;
+        width: 30em;
+        font-size: 0.6rem;
+    }
+    .perfil li{
+        font-size: 0.6rem;
+    }
+    #perfil{
+        width: 16em;
+        margin-bottom: 1.5em;
+    }
+}
