@@ -27,6 +27,42 @@ section {
 
 }
 
+.fundo_trofeu{
+        background-image:  url(./graph.png);
+        height: max-content;
+        width: 40em;
+        height: 40em;
+    
+}
+
+.fundo_trofeu img{
+        width:  20em;
+        height:  20em;
+        margin:  10em 9em;
+}
+#wave{
+    width: 100%;
+    height:  10em;
+    top: 0;
+    
+}
+.quem_somos{
+    align-self:  flex-start;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:  2em;
+    margin-top:  4em;
+    font-size:  0.8em;
+}
+.quem_somos p{
+    font-size:  1.3em;
+    margin-top:  1em;
+    text-indent:  1rem;
+    width:  38em;
+}
+
 section h1 {
     font-size: 3em;
     background-image: linear-gradient(to bottom, rebeccapurple, steelblue);
@@ -52,6 +88,12 @@ div.countdown-container {
     font-size: 4em;
 }
 @media screen and (max-width: 730px){
+
+    section h1{
+        font-size:  2em;
+        text-align: center;
+    }
+
     div.countdown-container {
         display: flex;
         flex-direction: column;
@@ -68,5 +110,122 @@ div.countdown-container {
     
     .text {
         font-size: 3em;
+        text-align: center;
+        margin: 0 auto;
     }
+
+    fundo_trofeu{
+        background-image:  url(./graph.png);
+        height: max-content;
+        width: 40em;
+        height: 40em;
+    
+}
+
+.fundo_trofeu img{
+        width:  20em;
+        height:  20em;
+        margin:  10em 9em
+}
+#wave{
+    width: 100%;
+    height:  20em;
+    top: 0;
+    
+}
+.quem_somos{
+    align-self:  flex-start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top:  4em;
+    font-size:  0.8em;
+}
+.quem_somos p{
+    font-size:  1.3em;
+    margin-top:  1em;
+    text-indent:  1rem;
+    width:  20em;
+}
+
+}
+
+@media  screen and (max-width:380px) {
+    .fundo_trofeu{
+        background-image:  url(./graph.png);
+        background-size: contain;
+        height: max-content;
+        width: 30em;
+        height: 30em;
+    
+}
+
+.fundo_trofeu img{
+        width:  14em;
+        height:  14em;
+        margin:  8em 8em
+}
+#wave{
+    width: 100%;
+    height:  20em;
+    top: 0;
+    
+}
+.quem_somos{
+    align-self:  flex-start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top:  4em;
+    font-size:  0.8em;
+}
+.quem_somos p{
+    font-size:  1.3em;
+    margin-top:  1em;
+    text-indent:  1rem;
+    width:  20em;
+}
+}
+@media  screen and (max-width:325px) {
+    .fundo_trofeu{
+        background-image:  url(./graph.png);
+        background-size: contain;
+        height: max-content;
+        width: 30em;
+        height: 30em;
+    
+}
+
+.fundo_trofeu img{
+        width:  14em;
+        height:  14em;
+        margin:  8em 8em
+}
+#wave{
+    width: 100%;
+    height:  20em;
+    top: 0;
+    
+}
+.quem_somos{
+    align-self:  flex-start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top:  4em;
+    font-size:  0.6em;
+    text-align: center;
+}
+.quem_somos p{
+    font-size:  1.3em;
+    margin-top:  1em;
+   
+    width:  20em;
+}
 }
