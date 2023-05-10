@@ -46,11 +46,8 @@ section h1{
     margin-top: 2em;
 }
 
-@media screen and (max-width:860px){
-    .indice{
-        display: none;
-    }
-}
+
+
 @media screen and (max-width:1135px){
     .container{
         display: grid;
@@ -165,6 +162,9 @@ section h1{
     #perfil{
         width: 16em;
         margin-bottom: 1.5em;
+    }
+    .indice li a{
+        font-size: 8pt;
     }
 }
 @media screen and (max-width:340px) {
