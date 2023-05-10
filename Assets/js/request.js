@@ -51,8 +51,8 @@ function criaTitulo(el) {
  
   if (href === "./fundadores.html") {
    console.log(href)
-   h1.innerHTML = 'fundadores'
+   h1.innerHTML = 'Fundadores'
   } else if (href == './moradores.html'){
     h1.innerHTML = 'Moradores da Vila'
-  }
+  } 
 }
