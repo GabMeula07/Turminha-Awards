@@ -65,11 +65,7 @@ section {
 
 section h1 {
     font-size: 3em;
-    background-image: linear-gradient(to bottom, rebeccapurple, steelblue);
-        color: black;
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    color: #0077b6 ;
 }
 
 div.countdown-container {

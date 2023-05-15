@@ -12,8 +12,9 @@ html{
     color: white;
     padding: 1rem 1.3rem;
     border-radius: 30rem;
-    background-image: linear-gradient(45deg, rgb(62, 0, 206), rgb(97, 2, 116));
+    background-image: linear-gradient(45deg, #00b4d8, #0077b6);
     transition: 1s;
+    box-shadow: 3px 5px 4.6px #000;
 }
 #perfil{
     width: 18em;

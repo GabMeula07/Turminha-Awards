@@ -9,7 +9,7 @@ body{
     background-color: #fdfdfd;
 }
 header {
-    background: linear-gradient(45deg, rgb(62, 0, 206), rgb(97, 2, 116));
+    background: linear-gradient(to bottom , #3498db 50%, #2980b9 );
     box-shadow: 0px 3px 10px #0c0224;
 }
 
@@ -65,7 +65,7 @@ header {
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: #ac7cd3;
+    background-color: #0077b6;
 }
 
 .login-button button a {
