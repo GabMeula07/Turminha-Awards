@@ -1,4 +1,5 @@
 # Turminha Awards
+https://img.shields.io/github/license/GabMeula07/Turminha-Awards?style=for-the-badge (https://github.com/GabMeula07/Turminha-Awards/blob/main/LICENSE)
 
 Versão: 1.0.0
 
