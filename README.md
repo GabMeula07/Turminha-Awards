@@ -12,7 +12,7 @@ Esse projeto foi feito em colaboração com amigos, onde a gente vai implementar
 
 ## Tecnologias utilizadas
 
-Por enquanto o site só está implementado o front-end.
+Por enquanto o site só está implementando o front-end.
 
 ### front-end
 - HTML5;
