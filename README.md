@@ -8,7 +8,7 @@ Versão: 1.0.0
 
 http://turminhadobras.com.br
 
-Esse projeto foi feito em colaboração com amigos, onde a gente vai implementar um sistema de votação para se premiar em categorias engraçadas. O seu desing foi remodulado do zero durante meus estudos de desenvolvimento web. Porém, esse site serve para entretenimento e aplicação do meu estudos em JS, NODE JS e etc.
+Esse projeto foi feito em colaboração com amigos, onde a gente vai implementar um sistema de votação para se premiar em categorias engraçadas. O seu desing foi remodulado do zero durante meus estudos de desenvolvimento web. Porém, esse site serve para entretenimento e aplicação do meu estudos em JS, HTML e CSS e etc.
 
 ## Tecnologias utilizadas
 
